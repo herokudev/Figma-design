@@ -8,11 +8,11 @@ body {
 }
 
 .nav-container {
-  font-family: "Roboto, Arial, Helvetica, sans-serif";
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 15px;
   line-height: 48px;
-  color: #ffffff;
+  color: #fff;
   background-color: #3c3a39;
   margin-left: 20%;
   margin-right: 20%;
@@ -40,7 +40,7 @@ body {
 }
 
 .main-header {
-  font-family: "Crete Round";
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
@@ -48,7 +48,7 @@ body {
 }
 
 .second-header {
-  font-family: "Roboto";
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
@@ -56,9 +56,9 @@ body {
 }
 
 .main-content {
-  font-family: "Poppins";
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #FFF;
+  color: #fff;
 }
