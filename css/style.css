@@ -22,7 +22,7 @@ body {
   display: grid;
   grid-template-columns: 1px auto;
   grid-template-rows: 60px auto 60px;
-  grid-template-areas: 
+  grid-template-areas:
     "hd hd"
     "sidebar main"
     "footer footer";
@@ -73,7 +73,8 @@ main {
 }
 
 .navigation-item {
-  margin: 0 90px; }
+  margin: 0 90px;
+}
 
 footer {
   background-color: #1c1a19;
@@ -91,4 +92,5 @@ footer {
 }
 
 .footer-nav-item {
-  margin: 0 10px; }
+  margin: 0 10px;
+}
