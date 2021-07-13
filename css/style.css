@@ -8,21 +8,22 @@
   padding: 0;
 }
 
-header {
+header {  
   display: flex;
   flex-direction: column;
+  align-content: center;
   height: 100%;
-  padding: 10px 10px 0 10px;
+  padding: 10px;
   background: #3c3a39;
 }
 
 .mobile-menu {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   width: 100%;
   height: auto;
   display: flex;
   color: white;
   justify-content: space-between;
-  align-content: center;
 }
 
 body {
