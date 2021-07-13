@@ -1,10 +1,103 @@
-body {
-  background: #fff;
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round");
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.myHeader {
-  color: #222831;
-  margin: 20px;
-  font-family: sans-serif;
-  font-weight: normal;
+header {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  height: 100%;
+  padding: 10px;
+  background: #3c3a39;
+}
+
+.mobile-menu {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: auto;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1a19;
+}
+
+.main-title {
+  font-family: "Crete Round", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  color: #ff6b00;
+  margin: 125px 0 0 0;
+  padding: 0 0 0 15px;
+}
+
+.second-title {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+  margin: 15px 0 0 0;
+  padding: 0 0 0 15px;
+}
+
+.main-content {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin: 15px 0 0 0;
+  padding: 0 0 0 15px;
+}
+
+main {
+  background-color: #1c1a19;
+}
+
+.navigation-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-item {
+  margin: 0 90px;
+}
+
+.group-vector {
+  position: absolute;
+  left: 65.74%;
+  right: -30.09%;
+  top: 49.3%;
+  bottom: -11.63%;
+}
+
+.box-box4 {
+  margin: 15px 0 0 15px;
+}
+
+.social-nav-list {
+  list-style: none;
+  margin: 15px 0 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.social-nav-item {
+  margin: 0 10px;
 }
