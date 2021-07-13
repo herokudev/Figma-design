@@ -13,6 +13,7 @@ header {
   flex-direction: column;
   height: 100%;
   padding: 10px 10px 0 10px;
+  background: #3c3a39;
 }
 
 .mobile-menu {
@@ -37,6 +38,7 @@ body {
   line-height: 64px;
   color: #ff6b00;
   margin: 125px 0 0 0;
+  padding: 0 0 0 15px;
 }
 
 .second-title {
@@ -46,6 +48,7 @@ body {
   line-height: 32px;
   color: #fff5e1;
   margin: 15px 0 0 0;
+  padding: 0 0 0 15px;
 }
 
 .main-content {
@@ -55,6 +58,7 @@ body {
   line-height: 24px;
   color: #fff;
   margin: 15px 0 0 0;
+  padding: 0 0 0 15px;
 }
 
 main {
@@ -71,8 +75,16 @@ main {
   margin: 0 90px;
 }
 
+.group-vector {
+  position: absolute;
+  left: 65.74%;
+  right: -30.09%;
+  top: 49.3%;
+  bottom: -11.63%;
+}
+
 .box-box4 {
-  margin: 15px 0 0 0;
+  margin: 15px 0 0 15px;  
 }
 
 .social-nav-list {
