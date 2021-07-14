@@ -185,7 +185,7 @@ main {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  cursor: pointer;    
+  cursor: pointer;
 }
 
 .button1 {
@@ -217,7 +217,7 @@ main {
   background-color: #1c1a19;
   background-image: url("https://raw.githubusercontent.com/herokudev/Figma-design/My-recent-works-feature/images/About-group-vectors.png");
   background-repeat: no-repeat;
-  background-position: 99% 24%; 
+  background-position: 99% 24%;
   position: relative;
   height: 1901px;
 }
