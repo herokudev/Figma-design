@@ -152,12 +152,12 @@ main {
 .image-area {
   padding: 5px 0 0 5px;
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
-  background-image:  url("https://raw.githubusercontent.com/herokudev/Figma-design/master/images/Img-Placeholder2.png");
+  background-image: url("https://raw.githubusercontent.com/herokudev/Figma-design/master/images/Img-Placeholder2.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#box2-title {
+.box2-title {
   font-family: "Crete Round", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 32px;
@@ -166,33 +166,33 @@ main {
   padding: 85px 25px 0 10px;
 }
 
-#box2-content {
+.box2-content {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #fff; 
+  color: #fff;
   padding: 10px 0 0 10px;
 }
 
-#large-button {
+.large-button {
   width: 345px;
   height: 48px;
   background: #ff6b00;
 }
 
-#box2-style {
+.box2-style {
   color: #fff;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  color: #fff; 
+  color: #fff;
   padding: 12px 0 0 110px;
 }
 
 .about-me {
-  padding: 15px 5px 25px 25px; 
+  padding: 15px 5px 25px 25px;
   background-color: #1c1a19;
   position: relative;
   height: 1901px;
@@ -218,13 +218,13 @@ main {
 
 #about-group {
   position: absolute;
-  top: 21.0%;  
+  top: 21.0%;
   right: 0%;
 }
 
 #about-vector {
   position: absolute;
-  top: 35.0%;  
+  top: 35.0%;
   right: 6%;
 }
 
@@ -239,7 +239,7 @@ main {
   font-weight: 400;
   font-size: 22px;
   line-height: 42px;
-  color: #fff;  
+  color: #fff;
   display: flex;
   justify-content: center;
 }
