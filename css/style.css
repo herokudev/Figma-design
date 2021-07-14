@@ -187,7 +187,6 @@ main {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  color: #fff;
   padding: 12px 0 0 110px;
 }
 
@@ -219,13 +218,13 @@ main {
 #about-group {
   position: absolute;
   top: 21.0%;
-  right: 0%;
+  right: 0.0%;
 }
 
 #about-vector {
   position: absolute;
   top: 35.0%;
-  right: 6%;
+  right: 6.0%;
 }
 
 .categories {
