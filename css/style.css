@@ -120,7 +120,7 @@ main {
   padding: 15px 5px 25px 25px;
 }
 
-#box1-title {
+.box1-title {
   font-family: "Crete Round", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 32px;
@@ -129,7 +129,7 @@ main {
   padding: 25px 0 0 0;
 }
 
-#box1-content {
+.box1-content {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -175,10 +175,32 @@ main {
   padding: 10px 0 0 10px;
 }
 
-.large-button {
-  width: 345px;
+.button {
+  border: none;
+  color: #fff;
+  background-color: #ff6b00;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;    
+}
+
+.button1 {
+  width: 124px;
   height: 48px;
-  background: #ff6b00;
+}
+
+.button2 {
+  width: 350px;
+  height: 48px;
+}
+
+.button3 {
+  width: 161px;
+  height: 48px;
 }
 
 .box2-style {
@@ -193,11 +215,14 @@ main {
 .about-me {
   padding: 15px 5px 25px 25px;
   background-color: #1c1a19;
+  background-image: url("https://raw.githubusercontent.com/herokudev/Figma-design/My-recent-works-feature/images/About-group-vectors.png");
+  background-repeat: no-repeat;
+  background-position: 99% 24%; 
   position: relative;
   height: 1901px;
 }
 
-#about-me-title {
+.about-me-title {
   font-family: "Crete Round", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 70px;
@@ -206,7 +231,7 @@ main {
   padding: 125px 25px 0 5px;
 }
 
-#about-me-content {
+.about-me-content {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -215,13 +240,13 @@ main {
   padding: 10px 0 25px 5px;
 }
 
-#about-group {
+.about-group {
   position: absolute;
   top: 21.2%;
   right: 0.2%;
 }
 
-#about-vector {
+.about-vector {
   position: absolute;
   top: 35.2%;
   right: 6.2%;
