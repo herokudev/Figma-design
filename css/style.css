@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round");
 @import url("https://fonts.googleapis.com/css2?family=Roboto");
+@import url("https://fonts.googleapis.com/css2?family=Inter");
 
 * {
   box-sizing: border-box;
@@ -29,7 +30,6 @@ header {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #1c1a19;
 }
 
 .main-title {
@@ -64,6 +64,7 @@ body {
 
 main {
   background-color: #1c1a19;
+  padding: 0 0 150px 0;
 }
 
 .navigation-list {
@@ -100,4 +101,184 @@ main {
 
 .social-nav-item {
   margin: 0 10px;
+}
+
+.my-cards {
+  display: grid;
+}
+
+.article-header {
+  font-family: "Crete Round", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #1c1a19;
+  padding: 10px 15px 10px 25px;
+}
+
+.article-box1 {
+  padding: 15px 5px 25px 25px;
+}
+
+.box1-title {
+  font-family: "Crete Round", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+  padding: 25px 0 0 0;
+}
+
+.box1-content {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+  padding: 10px 0 0 0;
+}
+
+.box1-tags {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px 15px 10px;
+}
+
+.article-box2 {
+  padding: 15px 5px 25px 25px;
+}
+
+.image-area {
+  padding: 5px 0 0 5px;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+  background-image: url("https://raw.githubusercontent.com/herokudev/Figma-design/master/images/Img-Placeholder2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box2-title {
+  font-family: "Crete Round", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  padding: 85px 25px 0 10px;
+}
+
+.box2-content {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  padding: 10px 0 0 10px;
+}
+
+.button {
+  border: none;
+  color: #fff;
+  background-color: #ff6b00;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #f55800;
+  background-color: #fff5e1;
+}
+
+.button:active {
+  color: #f4f1f0;
+  background-color: #e05304;
+}
+
+.button:disabled {
+  color: #5b5957;
+  background-color: #f4f1f0;
+}
+
+.button1 {
+  width: 124px;
+  height: 48px;
+}
+
+.button2 {
+  width: 350px;
+  height: 48px;
+}
+
+.button3 {
+  width: 161px;
+  height: 48px;
+}
+
+.box2-style {
+  color: #fff;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 12px 0 0 110px;
+}
+
+.about-me {
+  padding: 15px 5px 25px 25px;
+  background-color: #1c1a19;
+  background-image: url("https://raw.githubusercontent.com/herokudev/Figma-design/My-recent-works-feature/images/About-group-vectors.png");
+  background-repeat: no-repeat;
+  background-position: 99% 24%;
+  position: relative;
+  height: 1901px;
+}
+
+.about-me-title {
+  font-family: "Crete Round", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 88px;
+  color: #ff6b00;
+  padding: 125px 25px 0 5px;
+}
+
+.about-me-content {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+  padding: 10px 0 25px 5px;
+}
+
+.about-group {
+  position: absolute;
+  top: 21.2%;
+  right: 0.2%;
+}
+
+.about-vector {
+  position: absolute;
+  top: 35.2%;
+  right: 6.2%;
+}
+
+.categories {
+  list-style: none;
+  position: absolute;
+  top: 40%;
+}
+
+.Category-item {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 42px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
 }
