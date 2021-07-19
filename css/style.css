@@ -140,9 +140,19 @@ main {
 
 .box1-tags {
   list-style: none;
-  display: flex; 
-  justify-content: space-between;
+  /*display: flex; 
+  justify-content: space-between; */
   padding: 15px 15px 15px 10px;
+}
+
+.float-position1 {
+  float: right;
+  padding: 0 15px 10px 0;
+}
+
+.float-position2 {
+  float: right;
+  padding: 0 25px 10px 0;
 }
 
 .article-box2 {
@@ -155,6 +165,7 @@ main {
   background-image: url("https://raw.githubusercontent.com/herokudev/Figma-design/master/images/Img-Placeholder2.png");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 355px;
 }
 
 .box2-title {
