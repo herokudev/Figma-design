@@ -140,7 +140,7 @@ main {
 
 .box1-tags {
   list-style: none;
-  display: flex;
+  display: flex; 
   justify-content: space-between;
   padding: 15px 15px 15px 10px;
 }
