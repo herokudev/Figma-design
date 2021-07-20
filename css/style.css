@@ -282,3 +282,75 @@ main {
   display: flex;
   justify-content: center;
 }
+
+.my-contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 24px 80px 24px;
+}
+
+.contact-form-header {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  text-align: center;
+  padding: 15px 0 45px 0;
+}
+
+.contact-form-name {
+  border: none;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  text-align: left;
+  padding: 15px 0 5px 10px;
+}
+
+.field-separator {
+  padding: 10px 0 10px 0;  
+}
+
+.contact-form-email {
+  border: none;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  text-align: left;
+  padding: 15px 0 5px 10px;
+}
+
+.contact-form-message {
+  border: none;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+  background-color: #fbf8f7;
+  text-align: left;
+  margin-top: 10px;
+  padding: 15px 0 5px 10px;
+}
+
+.button4 {
+  width: 131px;
+  height: 48px;
+  margin: 25px 0 125px 100px;
+}
+
+.box-box5 {
+  margin: 5px 0 5px 85px;
+}
+
+.bottom-shape {
+  width: 134px;
+  height: 5px;
+  color: #0d151e;
+  padding: 10px 15px 45px 130px;
+}
