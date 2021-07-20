@@ -103,6 +103,10 @@ main {
   margin: 0 10px;
 }
 
+.social-nav-item:hover {
+  cursor: pointer;
+}
+
 .my-cards {
   display: grid;
 }
@@ -287,10 +291,10 @@ main {
   display: flex;
   flex-direction: column;
   padding: 80px 24px 80px 24px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
-.contact-form-header {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+.contact-form-header {  
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
@@ -301,7 +305,6 @@ main {
 
 .contact-form-name {
   border: none;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -316,7 +319,6 @@ main {
 
 .contact-form-email {
   border: none;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -327,7 +329,6 @@ main {
 
 .contact-form-message {
   border: none;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
