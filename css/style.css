@@ -362,7 +362,7 @@ main {
   background-image: url("/images/Group-vectors.png");
   background-repeat: no-repeat;
   background-size: 262px 257px;
-  background-position: bottom right; 
+  background-position: bottom right;
   padding-bottom: 25px;
 }
 
@@ -382,7 +382,7 @@ main {
 
   .desktop {
     height: auto;
-    display: grid;    
+    display: grid;
   }
   
   .desktop-nav {
@@ -404,8 +404,8 @@ main {
     background-image: url("/images/Destop-group-img1.png");
     background-repeat: no-repeat;
     background-size: 570px 630px;
-    background-position: 90% 17%; 
-    padding-bottom: 25px;    
+    background-position: 90% 17%;
+    padding-bottom: 25px;
   }
   
   .desktop-container1 {
@@ -421,7 +421,7 @@ main {
   .desktop-container3 {
     padding: 10px 15px 10px 25px;
     margin-top: 75px;
-    margin-bottom: 75px;  
+    margin-bottom: 75px;
   }
 
   .section-header-item1 {
@@ -440,7 +440,7 @@ main {
 
   .desktop-container4 {
     padding: 10px 15px 10px 25px;
-    margin-bottom: 25px;  
+    margin-bottom: 25px;
   }
 
   #img-container4 {
@@ -456,7 +456,7 @@ main {
     grid-template-columns: repeat(3, 1fr);
     padding: 5px;
     margin-bottom: 85px;
-  }  
+  }
 
   .desktop-container5 {
     grid-row: 1;
@@ -496,7 +496,7 @@ main {
   }
 
   .desktop-container9 {
-    grid-row: 2;;
+    grid-row: 2;
     background-image: url("/images/project-img5.png");
     background-repeat: no-repeat;
     height: 435px;
@@ -516,7 +516,7 @@ main {
     background-repeat: no-repeat;
     background-position: 99% 24%;
     position: relative;
-    height: 1901px;    
+    height: 1901px;
   }
 
   .desktop-about-vector {
@@ -550,7 +550,7 @@ main {
     color: #172b4d;
     text-align: left;
     margin-top: 125px;
-    margin-left: 225px;  
+    margin-left: 225px;
   }
 
   .desktop-contact-form {
@@ -559,12 +559,12 @@ main {
     display: flex;
     flex-direction: column;
     padding: 80px 24px 80px 24px;
-    font-family: "Inter", Arial, Helvetica, sans-serif;  
-    width: 450px;  
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    width: 450px;
   }
 
   .desktop-icons {
     margin-left: 550px;
   }
-
 }
+
