@@ -384,7 +384,7 @@ main {
     height: auto;
     display: grid;
   }
- 
+
   .desktop-nav {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
