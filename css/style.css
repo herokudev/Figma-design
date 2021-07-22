@@ -106,7 +106,11 @@ main {
   cursor: pointer;
 }
 
-.my-cards {
+.mobile-my-cards {
+  display: grid;
+}
+
+.desktop-my-cards {
   display: grid;
 }
 
@@ -154,7 +158,7 @@ main {
 .image-area {
   padding: 5px 0 0 5px;
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
-  background-image: url("https://raw.githubusercontent.com/herokudev/Figma-design/master/images/Img-Placeholder2.png");
+  background-image: url("/images/Img-Placeholder2.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -229,10 +233,10 @@ main {
   padding: 12px 0 0 110px;
 }
 
-.about-me {
+.mobile-about-me {
   padding: 15px 5px 25px 25px;
   background-color: #1c1a19;
-  background-image: url("https://raw.githubusercontent.com/herokudev/Figma-design/My-recent-works-feature/images/About-group-vectors.png");
+  background-image: url("/images/About-group-vectors.png");
   background-repeat: no-repeat;
   background-position: 99% 24%;
   position: relative;
@@ -355,9 +359,10 @@ main {
 
 .mobile-main {
   background-color: #1c1a19;
-  background-image: url("images/Group-vectors.png");
+  background-image: url("/images/Group-vectors.png");
   background-repeat: no-repeat;
-  background-size: cover;  
+  background-size: 262px 257px;
+  background-position: bottom right; 
   padding-bottom: 25px;
 }
 
@@ -370,7 +375,7 @@ main {
   color: white;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   .mobile {
     display: none;
   }
@@ -396,9 +401,10 @@ main {
   .desktop-main {
     background-color: #1c1a19;
     grid-template-columns: repeat(12, 1fr);
-    background-image: url("images/Destop-group-img1.png");
+    background-image: url("/images/Destop-group-img1.png");
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: 570px 630px;
+    background-position: 90% 17%; 
     padding-bottom: 25px;    
   }
   
@@ -410,6 +416,155 @@ main {
 
   .desktop-container2 {
     grid-column: 2/12;
+  }
+
+  .desktop-container3 {
+    padding: 10px 15px 10px 25px;
+    margin-top: 75px;
+    margin-bottom: 75px;  
+  }
+
+  .section-header-item1 {
+    font-family: "Crete Round", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #1c1a19;
+  }
+
+  .section-header-item2 {
+    margin-top: -25px;
+    margin-left: 420px;
+    width: 685px;
+  }
+
+  .desktop-container4 {
+    padding: 10px 15px 10px 25px;
+    margin-bottom: 25px;  
+  }
+
+  #img-container4 {
+    width: 615px;
+  }
+
+  .details-container4 {
+    margin-top: -440px;
+    margin-left: 690px;
+  }
+
+  .desktop-projects {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5px;
+    margin-bottom: 85px;
+  }  
+
+  .desktop-container5 {
+    grid-row: 1;
+    background-image: url("/images/project-img1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 5px 10px;
+    height: 435px;
+  }
+
+  .button5 {
+    width: 375px;
+    height: 48px;
+    margin-top: 387px;
+    margin-left: 5px;
+  }
+
+  .desktop-container6 {
+    grid-row: 1;
+    background-image: url("/images/project-img2.png");
+    background-repeat: no-repeat;
+    height: 435px;
+  }
+
+  .desktop-container7 {
+    grid-row: 1;
+    background-image: url("/images/project-img3.png");
+    background-repeat: no-repeat;
+    height: 435px;
+  }
+
+  .desktop-container8 {
+    grid-row: 2;
+    background-image: url("/images/project-img4.png");
+    background-repeat: no-repeat;
+    height: 435px;
+  }
+
+  .desktop-container9 {
+    grid-row: 2;;
+    background-image: url("/images/project-img5.png");
+    background-repeat: no-repeat;
+    height: 435px;
+  }
+
+  .desktop-container10 {
+    grid-row: 2;
+    background-image: url("/images/project-img6.png");
+    background-repeat: no-repeat;
+    height: 435px;
+  }
+
+  .desktop-about-me {
+    padding: 15px 5px 25px 25px;
+    background-color: #1c1a19;
+    background-image: url("/images/Destop-group-img2.png");
+    background-repeat: no-repeat;
+    background-position: 99% 24%;
+    position: relative;
+    height: 1901px;    
+  }
+
+  .desktop-about-vector {
+    position: absolute;
+    top: 45.2%;
+    right: 30.2%;
+    width: 827px;
+  }
+
+  .desktop-skills-header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5px;
+    margin-top: 225px;
+    margin-left: 125px;
+  }
+
+  .desktop-skills-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5px;
+    margin-top: -325px;
+    margin-left: 125px;
+    text-align: center;
+  }
+
+  .desktop-form-header {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    text-align: left;
+    margin-top: 125px;
+    margin-left: 225px;  
+  }
+
+  .desktop-contact-form {
+    margin-top: -300px;
+    margin-left: 625px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 24px 80px 24px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;  
+    width: 450px;  
+  }
+
+  .desktop-icons {
+    margin-left: 550px;
   }
 
 }
