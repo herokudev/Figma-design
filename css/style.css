@@ -384,9 +384,8 @@ main {
     height: auto;
     display: grid;
   }
-  
   .desktop-nav {
-    display: grid;    
+    display: grid;
     grid-template-columns: repeat(12, 1fr);
   }
 
@@ -406,8 +405,7 @@ main {
     background-size: 570px 630px;
     background-position: 90% 17%;
     padding-bottom: 25px;
-  }
-  
+  }  
   .desktop-container1 {
     grid-column: 1;
     margin-top: 175px;
@@ -567,4 +565,3 @@ main {
     margin-left: 550px;
   }
 }
-
