@@ -469,8 +469,13 @@ main {
     margin-bottom: 25px;
   }
 
-  #img-container4 {
+  .img-container4 {
     width: 615px;
+  }
+
+  .img-container4:hover {
+    transform: scale(1.2); /* Equal to scaleX(0.7) scaleY(0.7) */
+    background-color: black;
   }
 
   .details-container4 {
@@ -520,6 +525,10 @@ main {
     background-size: 92%;
     background-position: 5px 10px;
     height: 435px;
+  }
+
+  .desktop-container5:hover {
+    transform: scale(1.2); /* Equal to scaleX(0.7) scaleY(0.7) */
   }
 
   .button5 {
