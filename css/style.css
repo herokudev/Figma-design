@@ -404,24 +404,23 @@ main {
 
   .desktop-navlink1 {
     position: absolute;
-    left: 60%;  
+    left: 60%;
   }
 
   .desktop-navlink2 {
     position: absolute;
-    left: 70%;      
+    left: 70%;
   }
 
   .desktop-navlink3 {
     position: absolute;
-    left: 77%;    
+    left: 77%;
   }
 
   .desktop-navlink4 {
     position: absolute;
     left: 85%;
   }
-
 
   .desktop-main {
     background-color: #1c1a19;
@@ -508,7 +507,7 @@ main {
   .desktop-projects {
     grid-template-columns: repeat(3, 1fr);
     padding: 5px;
-    margin-left: 15px;;
+    margin-left: 15px;
     margin-bottom: 85px;
   }
 
