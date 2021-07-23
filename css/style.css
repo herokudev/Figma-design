@@ -243,6 +243,10 @@ main {
   height: 1901px;
 }
 
+.about-me-intro {
+  margin-left: 55px;
+}
+
 .about-me-title {
   font-family: "Crete Round", Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -398,6 +402,27 @@ main {
     grid-column: span 2;
   }
 
+  .desktop-navlink1 {
+    position: absolute;
+    left: 60%;  
+  }
+
+  .desktop-navlink2 {
+    position: absolute;
+    left: 70%;      
+  }
+
+  .desktop-navlink3 {
+    position: absolute;
+    left: 77%;    
+  }
+
+  .desktop-navlink4 {
+    position: absolute;
+    left: 85%;
+  }
+
+
   .desktop-main {
     background-color: #1c1a19;
     grid-template-columns: repeat(12, 1fr);
@@ -410,7 +435,7 @@ main {
 
   .desktop-container1 {
     grid-column: 1;
-    margin-top: 175px;
+    margin-top: 245px;
     margin-left: 12.5%;
   }
 
@@ -452,9 +477,38 @@ main {
     margin-left: 690px;
   }
 
+  .multi-btn1 {
+    position: absolute;
+    margin-top: 20px;
+  }
+
+  .multi-btn2 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 58px;
+  }
+
+  .multi-btn3 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 122px;
+  }
+
+  .multi-btn4 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 225px;
+  }
+
+  .multi-btn5 {
+    position: absolute;
+    margin-top: 75px;
+  }
+
   .desktop-projects {
     grid-template-columns: repeat(3, 1fr);
     padding: 5px;
+    margin-left: 15px;;
     margin-bottom: 85px;
   }
 
@@ -462,13 +516,13 @@ main {
     grid-row: 1;
     background-image: url("/images/project-img1.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 92%;
     background-position: 5px 10px;
     height: 435px;
   }
 
   .button5 {
-    width: 375px;
+    width: 363px;
     height: 48px;
     margin-top: 387px;
     margin-left: 5px;
@@ -531,16 +585,43 @@ main {
     grid-template-columns: repeat(3, 1fr);
     padding: 5px;
     margin-top: 225px;
-    margin-left: 125px;
+    margin-left: 60px;
   }
 
   .desktop-skills-items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 5px;
-    margin-top: -325px;
+    margin-top: -400px;
+    margin-left: -15px;
+    text-align: left;
+  }
+
+  .skill-item1 {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 42px;
+    color: #fff;
     margin-left: 125px;
-    text-align: center;
+  }
+
+  .skill-item2 {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 42px;
+    color: #fff;
+    margin-left: 75px;
+  }
+
+  .skill-item3 {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 42px;
+    color: #fff;
+    margin-left: 120px;
   }
 
   .desktop-form-header {
