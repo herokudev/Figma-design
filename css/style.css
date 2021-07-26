@@ -159,7 +159,7 @@ main {
 .image-area {
   padding: 5px 0 0 5px;
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
-  background-image: url("/images/Img-Placeholder2.png");
+  background-image: url("https://raw.githubusercontent.com/herokudev/Figma-design/master/images/Img-Placeholder2.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -237,7 +237,7 @@ main {
 .mobile-about-me {
   padding: 15px 5px 25px 25px;
   background-color: #1c1a19;
-  background-image: url("/images/About-group-vectors.png");
+  background-image: url("https://raw.githubusercontent.com/herokudev/Figma-design/master/images/About-group-vectors.png");
   background-repeat: no-repeat;
   background-position: 99% 24%;
   position: relative;
@@ -364,7 +364,7 @@ main {
 
 .mobile-main {
   background-color: #1c1a19;
-  background-image: url("/images/Group-vectors.png");
+  background-image: url("https://raw.githubusercontent.com/herokudev/Figma-design/master/images/Group-vectors.png");
   background-repeat: no-repeat;
   background-size: 262px 257px;
   background-position: bottom right;
@@ -427,7 +427,7 @@ main {
   .desktop-main {
     background-color: #1c1a19;
     grid-template-columns: repeat(12, 1fr);
-    background-image: url("/images/Destop-group-img1.png");
+    background-image: url("https://raw.githubusercontent.com/herokudev/Figma-design/master/images/Destop-group-img1.png");
     background-repeat: no-repeat;
     background-size: 570px 630px;
     background-position: 90% 17%;
@@ -520,7 +520,7 @@ main {
 
   .desktop-container5 {
     grid-row: 1;
-    background-image: url("/images/project-img1.png");
+    background-image: url("https://raw.githubusercontent.com/herokudev/Figma-design/master/images/project-img1.png");
     background-repeat: no-repeat;
     background-size: 92%;
     background-position: 5px 10px;
@@ -540,35 +540,35 @@ main {
 
   .desktop-container6 {
     grid-row: 1;
-    background-image: url("/images/project-img2.png");
+    background-image: url("https://raw.githubusercontent.com/herokudev/Figma-design/master/images/project-img2.png");
     background-repeat: no-repeat;
     height: 435px;
   }
 
   .desktop-container7 {
     grid-row: 1;
-    background-image: url("/images/project-img3.png");
+    background-image: url("https://raw.githubusercontent.com/herokudev/Figma-design/master/images/project-img3.png");
     background-repeat: no-repeat;
     height: 435px;
   }
 
   .desktop-container8 {
     grid-row: 2;
-    background-image: url("/images/project-img4.png");
+    background-image: url("https://raw.githubusercontent.com/herokudev/Figma-design/master/images/project-img4.png");
     background-repeat: no-repeat;
     height: 435px;
   }
 
   .desktop-container9 {
     grid-row: 2;
-    background-image: url("/images/project-img5.png");
+    background-image: url("https://raw.githubusercontent.com/herokudev/Figma-design/master/images/project-img5.png");
     background-repeat: no-repeat;
     height: 435px;
   }
 
   .desktop-container10 {
     grid-row: 2;
-    background-image: url("/images/project-img6.png");
+    background-image: url("https://raw.githubusercontent.com/herokudev/Figma-design/master/images/project-img6.png");
     background-repeat: no-repeat;
     height: 435px;
   }
@@ -576,7 +576,7 @@ main {
   .desktop-about-me {
     padding: 15px 5px 25px 75px;
     background-color: #1c1a19;
-    background-image: url("/images/Destop-group-img2.png");
+    background-image: url("https://raw.githubusercontent.com/herokudev/Figma-design/master/images/Destop-group-img2.png");
     background-repeat: no-repeat;
     background-position: 99% 24%;
     position: relative;
