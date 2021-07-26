@@ -14,6 +14,10 @@ In this project we use a Figma UI design to create a personal portfolio.
 - Linterns
 - Git used as remote repo
 
+## Live Demo
+
+[Live Demo Link](https://herokudev.github.io/Figma-design/)
+
 ## Authors
 
 👤 **Author1**
