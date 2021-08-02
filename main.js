@@ -1,0 +1,1 @@
+const menuIcon = document.querySelector('.mobile-menu');
