@@ -7,3 +7,15 @@ const menuItem3 = document.querySelector('#menu-item3');
 menuIcon.addEventListener('click',(event) => {
     navBar.classList.toggle("change");
 });
+
+menuItem1.addEventListener('click',(event) => {
+    navBar.classList.toggle("change");
+});
+
+menuItem2.addEventListener('click',(event) => {
+    navBar.classList.toggle("change");
+});
+
+menuItem3.addEventListener('click',(event) => {
+    navBar.classList.toggle("change");
+});
