@@ -12,15 +12,47 @@
 
 .container {
   width: 100%;
-  height: 100vh;
-  background: #3c3a39;
+  /*height: auto; */
+}
+
+.menu-bar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-menu {
+  height: 80px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #262626;
+  padding: 30px;
+}
+
+.navbar {
+  width: 375px;
+  height: 100%;
+  background-color: #262626;
+  position: fixed;
+  top: 0;
+  right: -375px;
+  display: flex;
+  align-items: center;
+}
+
+.change {
+  right: 0;
 }
 
 .hamburger-menu {
   width: 35px;
   height: 30px;
   position: fixed;
-  top: 20px;
+  top: 25px;
+  right: 25px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -30,26 +62,28 @@
   width: 100%;
   height: 3px;
   background-color: white;
+  transition: all 0.8s;
 }
 
-.navbar {
-  width: 300px;
-  height: 100%;
-  background-color: #262626;
-  display: flex;
-  margin-top: 75px;
-  /*justify-content: center;
-  align-items: center; */
+.change .line-1 {
+  transform: rotateZ(-405deg) translate(-8px, 6px);
 }
 
-.nav-list {
-  text-align: left;
+.change .line-2 {
+  opacity: 0;
+}
+
+.change .line-3 {
+  transform: rotateZ(405deg) translate(-8px, -6px);
 }
 
 .nav-item {
   list-style: none;
+  margin: 25px 25px 25px 65px;
+}
+
+.nav-link {
   text-decoration: none;
-  margin: 25px;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 32px;
