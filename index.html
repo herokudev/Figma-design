@@ -17,12 +17,28 @@
         </script>
     </head>
     <body>
-        <header>
-            <nav class="mobile-menu mobile">
-                <p class="mobile-name">John Doe</p>
-               <i class="fa fa-bars mobile-menu-icon"></i>
+        <div class="container mobile">
+            <nav class="navbar">
+                <div class="hamburger-menu">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>                    
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">                        
+                        <a id="menu-item1" href="#" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">                        
+                        <a id="menu-item2" href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">                        
+                        <a id="menu-item3" href="#" class="nav-link">Contact</a>
+                    </li>                                        
+                </ul>                
             </nav>
-            <nav class="desktop-menu desktop">
+        </div>   
+        <header class="desktop-menu desktop">
+            <nav>
                 <ul class="desktop-nav">
                     <li class="nav-logo">John Doe</li>
                     <li class="desktop-navlink1">Portfolio</li>
@@ -32,7 +48,7 @@
                 </ul>               
             </nav>
         </header>        
-        <section class="mobile-main mobile">
+        <section class="mobile-main mobile">         
             <section class="main-title">
                     <p>
                         Hey There. <br> I'm Herbert
