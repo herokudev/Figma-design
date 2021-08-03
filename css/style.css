@@ -150,7 +150,7 @@ header {
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
-  margin: 10px;;
+  margin: 10px;
 }
 
 .d-modal-title {
@@ -160,7 +160,7 @@ header {
   font-weight: normal;
   font-size: 32px;
   line-height: 44px;
-  margin: 10px;;
+  margin: 10px;
 }
 
 .desktop-tags > ul {
@@ -186,7 +186,7 @@ header {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 24px;  
+  line-height: 24px;
   margin: 15px;
 }
 
@@ -195,14 +195,14 @@ header {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;    
+  line-height: 30px;  
 }
 
 .modal-butons > ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; 
-  margin: 0 10px 5px 10px; 
+  justify-content: space-between;
+  margin: 0 10px 5px 10px;
 }
 
 .button6 {
@@ -216,7 +216,8 @@ header {
   font-size: 30px;
 }
 
-.closeBtn:hover,.closeBtn:focus {
+.closeBtn:hover,
+.closeBtn:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
@@ -229,7 +230,8 @@ header {
   margin: 10px;
 }
 
-.d-closeBtn:hover,.closeBtn:focus {
+.d-closeBtn:hover,
+.closeBtn:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
@@ -250,7 +252,7 @@ header {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;   
+  line-height: 30px;
 }
 
 .d-modal-butons {
@@ -651,7 +653,7 @@ main {
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
-    line-height: 20px;    
+    line-height: 20px;
     position: absolute;
     color: #fff;
     left: 70%;
@@ -663,7 +665,7 @@ main {
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
-    line-height: 20px;    
+    line-height: 20px;
     position: absolute;
     color: #fff;
     left: 77%;
