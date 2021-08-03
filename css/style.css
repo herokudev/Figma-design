@@ -99,6 +99,41 @@ header {
   background: #3c3a39;
 }
 
+.modalbtn {
+  padding: 5px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 15px;
+  top: 10%;
+  height: 100%;
+  width: 343px;;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 20% auto;
+  padding: 20px;
+  width: 70%;
+}
+
+.closeBtn {
+  color: #ccc;
+  float: right;
+  font-size: 30px;
+}
+
+.closeBtn:hover,.closeBtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 body {
   display: flex;
   flex-direction: column;
