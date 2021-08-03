@@ -41,19 +41,18 @@
                     </ul>
                 </nav>
             </div>     
-        </div>
-                
+        </div>                
         <header class="desktop-menu desktop">
             <nav>
                 <ul class="desktop-nav">
                     <li class="nav-logo">John Doe</li>
-                    <li class="desktop-navlink1">Portfolio</li>
-                    <li class="desktop-navlink2">About</li>
-                    <li class="desktop-navlink3">Contact</li>
+                    <li><a class="desktop-navlink1" href="#desktop-portfolio">Portfolio</a></li>
+                    <li><a class="desktop-navlink2" href="#desktop-About">About</a></li>
+                    <li><a class="desktop-navlink3" href="#desktop-contact">Contact</a></li>
                     <li class="desktop-navlink4"><i class="fa fa-envelope"></i></li>
                 </ul>               
             </nav>
-        </header>        
+        </header>             
         <section class="mobile-main mobile">         
             <section class="main-title">
                     <p>
@@ -132,7 +131,34 @@
                     <li><img src="images/tag_bootsrap.png" alt="Bootstrap"></li>
                     <li><img src="images/tag_ruby.png" alt="Ruby"></li>
                 </ul>
-                <button class="button button1">See Project</button>            
+                <button class="modalbtn button button1">See Project</button>
+                <div id="simpleModal" class="modal">
+                    <div class="modal-content">
+                        <span class="closeBtn">&times;</span>
+                        <h1 class="modal-title">Multi Post Stories</h1>
+                        <div class="image-list-modal">
+                            <ul>
+                                <li><img src="images/tag-html3.png" alt=""></li>
+                                <li><img src="images/tag-bootstrap3.png" alt=""></li>
+                                <li><img src="images/btn-ruby-on-rails.png" alt=""></li>                               
+                            </ul>
+                        </div>
+                        <img src="images/Snapshoot-portfolio.png" alt="Portfolio Image" class="main-image">
+                        <p class="modal-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
+                        <div class="modal-butons">
+                          <ul>
+                            <li><button class="button button6">
+                                See Live
+                                <img src="/images/btn-image1.png" alt="buton">
+                            </button></li>
+                            <li><button class="button button6">
+                                See Source
+                                <img src="/images/btn-image2.png" alt="buton">
+                            </button></li>
+                          </ul>                   
+                        </div>
+                    </div>
+                </div>                  
             </section>
             <section class="article-box2">
                 <div class="image-area">
@@ -171,7 +197,7 @@
                 <button class="button button2">See Project</button>
             </section>                                                 
         </section>
-        <section class="desktop-my-cards desktop">
+        <section id="desktop-portfolio" class="desktop-my-cards desktop">
             <section class="desktop-container3 desktop">
                     <p class="section-header-item1">My Recent Works</p>
                     <img class="section-header-item2" src="images/Vector.png" alt="Vector Image">
@@ -187,7 +213,41 @@
                         <li><img class="multi-btn3" src="images/tag_bootsrap.png" alt="Bootstrap"></li>
                         <li><img class="multi-btn4" src="images/tag_ruby.png" alt="Rub"></li>
                     </ul>
-                    <button class="multi-btn5 button button1">See Project</button>            
+                    <button id="desktop-modal-btn" class="multi-btn5 button button1">See Project</button>
+                    <div id="desktopModal" class="d-modal">
+                        <div class="d-modal-content">
+                            <span class="d-closeBtn">&times;</span>
+                            <h1 class="d-modal-title">Keeping track of hundreds  of components website</h1>
+                            <div class="desktop-tags"> 
+                                <ul>
+                                    <li><img src="/images/tag-html4.png" alt="button hmtl"></li>
+                                    <li><img src="/images/tag-bootstrap4.png" alt="button bootstrap"></li>
+                                    <li><img src="/images/tag-ruby4.png" alt="button ruby"></li>
+                                </ul>
+                            </div>
+                            <div class="d-modal-details">
+                                <div class="desktop-image">
+                                    <img src="/images/snapshoot-desktop.png" alt="image-details">
+                                </div>
+                                <div class="desktop-details">
+                                    <p class="d-modal-text">
+                                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.
+                                    </p>
+                                    <div class="d-modal-butons">
+                                        <button class="button button6">
+                                            See Live
+                                            <img src="/images/btn-image1.png" alt="buton">
+                                        </button>
+                                        <button class="button button6">
+                                            See Source
+                                            <img src="/images/btn-image2.png" alt="buton">
+                                          </button>             
+                                      </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
                 </section>
             </section>
             <section class="desktop-projects desktop">
@@ -270,7 +330,7 @@
                 <li class="Category-item">Terminal</li>                   
             </ul>
         </section>
-        <section class="desktop-about-me desktop">
+        <section id="desktop-About" class="desktop-about-me desktop">
             <section class="about-me-intro">
                 <h3 class="about-me-title">About Me</h3>
                 <p class="about-me-content">
@@ -316,7 +376,7 @@
                 <img src="images/bottom-Shape.png" alt="Line">
             </section>  
         </section>
-        <section class="desktop-form desktop">
+        <section id="desktop-contact" class="desktop-form desktop">
             <h1 class="desktop-form-header">I'm always <br>interested in hearing <br>about new projects, <br>so if you'd like to <br>chat please get in</h1>
             <form class="desktop-contact-form" action="https://formspree.io/f/mayadawe" method="POST">                
                 <input class="contact-form-name" type="text" name="user_name" maxlength="30" placeholder="Full name" required>

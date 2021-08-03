@@ -99,6 +99,166 @@ header {
   background: #3c3a39;
 }
 
+.modalbtn {
+  padding: 5px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 375px;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.d-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 2%;
+  height: 100%;
+  width: 1200px;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 5% auto;
+  padding: 5px;
+  width: 343px;
+  height: 100%;
+}
+
+.d-modal-content {
+  background-color: #fff;
+  margin: 5% auto;
+  padding: 5px;
+  width: 1050px;
+  height: 650px;
+}
+
+.modal-title {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #172b4d;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 10px;
+}
+
+.d-modal-title {
+  font-family: "Crete Round", Arial, Helvetica, sans-serif;
+  color: #172b4d;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 10px;
+}
+
+.desktop-tags > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 350px;
+}
+
+.image-list-modal > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 35px 10px 5px 10px;
+}
+
+.main-image {
+  margin: 0 10px 5px 10px;
+}
+
+.modal-text {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 15px;
+}
+
+.d-modal-text {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.modal-butons > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 10px 5px 10px;
+}
+
+.button6 {
+  width: 134px;
+  height: 48px;
+}
+
+.closeBtn {
+  color: #ccc;
+  float: right;
+  font-size: 30px;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.d-closeBtn {
+  color: #ccc;
+  float: right;
+  font-size: 50px;
+  margin: 10px;
+}
+
+.d-closeBtn:hover,
+.closeBtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.d-modal-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.desktop-image {
+  margin: 10px;
+}
+
+.desktop-details {
+  margin: 12px 15px 25px 10px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.d-modal-butons {
+  margin-top: 40px;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -476,17 +636,38 @@ main {
   }
 
   .desktop-navlink1 {
+    text-decoration: none;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
     position: absolute;
+    color: #fff;
     left: 60%;
   }
 
   .desktop-navlink2 {
+    text-decoration: none;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
     position: absolute;
+    color: #fff;
     left: 70%;
   }
 
   .desktop-navlink3 {
+    text-decoration: none;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
     position: absolute;
+    color: #fff;
     left: 77%;
   }
 
