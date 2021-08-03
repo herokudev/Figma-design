@@ -119,8 +119,30 @@ header {
   background-color: #fff;
   margin: 20% auto;
   padding: 20px;
-  width: 70%;
+  width: 100%;
+  height: 100vh;
 }
+
+.modal-title {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #172b4d;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.image-list-modal > ul {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.modal > .button1 {
+  color: #e05304;
+}
+
 
 .closeBtn {
   color: #ccc;
