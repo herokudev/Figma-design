@@ -107,20 +107,20 @@ header {
   display: none;
   position: fixed;
   z-index: 1;
-  left: 15px;
-  top: 10%;
+  left: 0;
+  top: 0;
   height: 100%;
-  width: 343px;;
+  width: 375px;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal-content {
   background-color: #fff;
-  margin: 20% auto;
-  padding: 20px;
-  width: 100%;
-  height: 100vh;
+  margin: 5% auto;
+  padding: 5px;
+  width: 343px;
+  height: 100%;
 }
 
 .modal-title {
@@ -130,19 +130,40 @@ header {
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
+  margin: 10px;;
 }
 
 .image-list-modal > ul {
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
   justify-content: space-between;
+  margin: 35px 10px 5px 10px;
 }
 
-.modal > .button1 {
-  color: #e05304;
+.main-image {
+  margin: 0 10px 5px 10px;
 }
 
+.modal-text {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;  
+  margin: 15px;
+}
+
+.modal-butons > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  margin: 0 10px 5px 10px; 
+}
+
+.button6 {
+  width: 134px;
+  height: 48px;
+}
 
 .closeBtn {
   color: #ccc;
