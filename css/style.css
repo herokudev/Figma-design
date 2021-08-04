@@ -576,11 +576,18 @@ main {
   padding: 15px 0 5px 10px;
 }
 
-#CustomValidity {
+#errormsgdesktop {
   display: none;
   color: #ff6b00;
   margin-left: 80px;
   padding-top: 35px;
+}
+
+#errormsgmobile {
+  display: none;
+  color: #ff6b00;  
+  margin-left: 80px;
+  padding-top: 35px;  
 }
 
 .button4 {

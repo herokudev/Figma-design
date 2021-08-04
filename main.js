@@ -11,10 +11,10 @@ const menuItem2 = document.querySelector('#menu-item2');
 const menuItem3 = document.querySelector('#menu-item3');
 const desktopsubmit = document.querySelector('#form-submit-desktop');
 const emaildesktop = document.querySelector('#email-desktop');
-const errormsgdesktop = document.querySelector('#CustomValidity');
+const errormsgdesktop = document.querySelector('#errormsgdesktop');
 const mobileSubmit = document.querySelector('#form-submit-mobile');
 const emailmobile = document.querySelector('#email-mobile');
-// const errormsgdesktop = document.querySelector('#CustomValidity');
+const errormsgmobile = document.querySelector('#errormsgmobile');
 
 menuIcon.addEventListener('click', () => {
   navBar.classList.toggle('change');
@@ -49,21 +49,21 @@ closeBtn2.addEventListener('click', () => {
 });
 
 desktopsubmit.addEventListener('click', () => {
-  var str = emaildesktop.value;
+  var str = emaildesktop.value;  
   var myEmail = str.toLowerCase();
-  if (str != myEmail) {
+  if (str != myEmail) {    
     errormsgdesktop.style.display = 'block';    
-  } else {
+  } else {    
     errormsgdesktop.style.display = 'none';
   }
 });
 
 mobileSubmit.addEventListener('click', () => {
   var str = emailmobile.value;
-  var myEmail = str.toLowerCase();
+  var myEmail = str.toLowerCase();  
   if (str != myEmail) {
-    errormsgdesktop.style.display = 'block';    
+    errormsgmobile.style.display = 'block';    
   } else {
-    errormsgdesktop.style.display = 'none';
+    errormsgmobile.style.display = 'none';
   }
 });
