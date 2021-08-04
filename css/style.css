@@ -576,10 +576,24 @@ main {
   padding: 15px 0 5px 10px;
 }
 
+#errormsgdesktop {
+  display: none;
+  color: #ff6b00;
+  margin-left: 80px;
+  padding-top: 35px;
+}
+
+#errormsgmobile {
+  display: none;
+  color: #ff6b00;
+  margin-left: 80px;
+  padding-top: 35px;
+}
+
 .button4 {
   width: 131px;
   height: 48px;
-  margin: 25px 0 125px 100px;
+  margin: 25px 0 125px 120px;
 }
 
 .box-box5 {

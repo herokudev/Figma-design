@@ -9,6 +9,12 @@ const closeBtn2 = document.querySelector('.d-closeBtn');
 const menuItem1 = document.querySelector('#menu-item1');
 const menuItem2 = document.querySelector('#menu-item2');
 const menuItem3 = document.querySelector('#menu-item3');
+const desktopsubmit = document.querySelector('#form-submit-desktop');
+const emaildesktop = document.querySelector('#email-desktop');
+const errormsgdesktop = document.querySelector('#errormsgdesktop');
+const mobileSubmit = document.querySelector('#form-submit-mobile');
+const emailmobile = document.querySelector('#email-mobile');
+const errormsgmobile = document.querySelector('#errormsgmobile');
 
 menuIcon.addEventListener('click', () => {
   navBar.classList.toggle('change');
@@ -40,4 +46,24 @@ modalbtn2.addEventListener('click', () => {
 
 closeBtn2.addEventListener('click', () => {
   desktopmodal.style.display = 'none';
+});
+
+desktopsubmit.addEventListener('click', () => {
+  const str = emaildesktop.value;
+  const myEmail = str.toLowerCase();
+  if (str !== myEmail) {
+    errormsgdesktop.style.display = 'block';
+  } else {
+    errormsgdesktop.style.display = 'none';
+  }
+});
+
+mobileSubmit.addEventListener('click', () => {
+  const str = emailmobile.value;
+  const myEmail = str.toLowerCase();
+  if (str !== myEmail) {
+    errormsgmobile.style.display = 'block';
+  } else {
+    errormsgmobile.style.display = 'none';
+  }
 });
