@@ -12,6 +12,9 @@ const menuItem3 = document.querySelector('#menu-item3');
 const desktopsubmit = document.querySelector('#form-submit-desktop');
 const emaildesktop = document.querySelector('#email-desktop');
 const errormsgdesktop = document.querySelector('#CustomValidity');
+const mobileSubmit = document.querySelector('#form-submit-mobile');
+const emailmobile = document.querySelector('#email-mobile');
+// const errormsgdesktop = document.querySelector('#CustomValidity');
 
 menuIcon.addEventListener('click', () => {
   navBar.classList.toggle('change');
@@ -47,6 +50,16 @@ closeBtn2.addEventListener('click', () => {
 
 desktopsubmit.addEventListener('click', () => {
   var str = emaildesktop.value;
+  var myEmail = str.toLowerCase();
+  if (str != myEmail) {
+    errormsgdesktop.style.display = 'block';    
+  } else {
+    errormsgdesktop.style.display = 'none';
+  }
+});
+
+mobileSubmit.addEventListener('click', () => {
+  var str = emailmobile.value;
   var myEmail = str.toLowerCase();
   if (str != myEmail) {
     errormsgdesktop.style.display = 'block';    
