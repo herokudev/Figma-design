@@ -21,8 +21,8 @@ const msgMobile = document.querySelector('#msg-mobile');
 const errormsgmobile = document.querySelector('#errormsgmobile');
 const desktopFormInfo = { name: '', email: '', msg: '' };
 const mobileFormInfo = { name: '', email: '', msg: '' };
-var desktopInfo = 'localStorage';
-var mobileInfo = 'localStorage';
+let desktopInfo = 'localStorage';
+let mobileInfo = 'localStorage';
 
 menuIcon.addEventListener('click', () => {
   navBar.classList.toggle('change');
