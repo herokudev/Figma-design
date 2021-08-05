@@ -19,10 +19,10 @@ const nameMobile = document.querySelector('#name-mobile');
 const emailMobile = document.querySelector('#email-mobile');
 const msgMobile = document.querySelector('#msg-mobile');
 const errormsgmobile = document.querySelector('#errormsgmobile');
-const desktopFormInfo = { name:'', email:'', msg:'' };
-const mobileFormInfo = { name:'', email:'', msg:'' };
-const desktopInfo = '';
-const mobileInfo = '';
+const desktopFormInfo = { name: '', email: '', msg: '' };
+const mobileFormInfo = { name: '', email: '', msg: '' };
+const desktopInfo;
+const mobileInfo;
 
 menuIcon.addEventListener('click', () => {
   navBar.classList.toggle('change');
