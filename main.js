@@ -10,19 +10,19 @@ const menuItem1 = document.querySelector('#menu-item1');
 const menuItem2 = document.querySelector('#menu-item2');
 const menuItem3 = document.querySelector('#menu-item3');
 const desktopsubmit = document.querySelector('#form-submit-desktop');
-const name_desktop = document.querySelector('#name-desktop');
-const email_desktop = document.querySelector('#email-desktop');
-const msg_desktop = document.querySelector('#msg-desktop');
+const nameDesktop = document.querySelector('#name-desktop');
+const emailDesktop = document.querySelector('#email-desktop');
+const msgDesktop = document.querySelector('#msg-desktop');
 const errormsgdesktop = document.querySelector('#errormsgdesktop');
 const mobileSubmit = document.querySelector('#form-submit-mobile');
-const name_mobile = document.querySelector('#name-mobile');
-const email_mobile = document.querySelector('#email-mobile');
-const msg_mobile = document.querySelector('#msg-mobile');
+const nameMobile = document.querySelector('#name-mobile');
+const emailMobile = document.querySelector('#email-mobile');
+const msgMobile = document.querySelector('#msg-mobile');
 const errormsgmobile = document.querySelector('#errormsgmobile');
-var d_formInfo = {name:'', email:'', msg:''};
-var m_formInfo = {name:'', email:'', msg:''};
-var desktop_info = "";
-var mobile_info = "";
+var desktopFormInfo = {name:'', email:'', msg:''};
+var mobileFormInfo = {name:'', email:'', msg:''};
+var desktopInfo = "";
+var mobileInfo = "";
 
 menuIcon.addEventListener('click', () => {
   navBar.classList.toggle('change');
@@ -57,7 +57,7 @@ closeBtn2.addEventListener('click', () => {
 });
 
 desktopsubmit.addEventListener('click', () => {
-  const str = email_desktop.value;
+  const str = emailDesktop.value;
   const myEmail = str.toLowerCase();
   if (str !== myEmail) {
     errormsgdesktop.style.display = 'block';
@@ -67,7 +67,7 @@ desktopsubmit.addEventListener('click', () => {
 });
 
 mobileSubmit.addEventListener('click', () => {
-  const str = email_mobile.value;
+  const str = emailMobile.value;
   const myEmail = str.toLowerCase();
   if (str !== myEmail) {
     errormsgmobile.style.display = 'block';
@@ -76,54 +76,54 @@ mobileSubmit.addEventListener('click', () => {
   }
 });
 
-name_desktop.addEventListener('input', () => {
-  d_formInfo.name = name_desktop.value;
-  desktop_info = JSON.stringify(d_formInfo);
-  localStorage.setItem('desktop_data', desktop_info);
+nameDesktop.addEventListener('input', () => {
+  desktopFormInfo.name = nameDesktop.value;
+  desktopInfo = JSON.stringify(desktopFormInfo);
+  localStorage.setItem('desktop_data', desktopInfo);
 });
 
-email_desktop.addEventListener('input', () => {
-  d_formInfo.email = email_desktop.value;
-  desktop_info = JSON.stringify(d_formInfo);
-  localStorage.setItem('desktop_data', desktop_info);
+emailDesktop.addEventListener('input', () => {
+  desktopFormInfo.email = emailDesktop.value;
+  desktopInfo = JSON.stringify(desktopFormInfo);
+  localStorage.setItem('desktop_data', desktopInfo);
 });
 
-msg_desktop.addEventListener('input', () => {
-  d_formInfo.msg = msg_desktop.value;
-  desktop_info = JSON.stringify(d_formInfo);
-  localStorage.setItem('desktop_data', desktop_info);
+msgDesktop.addEventListener('input', () => {
+  desktopFormInfo.msg = msgDesktop.value;
+  desktopInfo = JSON.stringify(desktopFormInfo);
+  localStorage.setItem('desktop_data', desktopInfo);
 });
 
-name_mobile.addEventListener('input', () => {
-  m_formInfo.name = name_mobile.value;
-  mobile_info = JSON.stringify(m_formInfo);
-  localStorage.setItem('mobile_data', mobile_info);
+nameMobile.addEventListener('input', () => {
+  mobileFormInfo.name = nameMobile.value;
+  mobileInfo = JSON.stringify(mobileFormInfo);
+  localStorage.setItem('mobile_data', mobileInfo);
 });
 
-email_mobile.addEventListener('input', () => {
-  m_formInfo.email = email_mobile.value;
-  mobile_info = JSON.stringify(m_formInfo);
-  localStorage.setItem('mobile_data', mobile_info);
+emailMobile.addEventListener('input', () => {
+  mobileFormInfo.email = emailMobile.value;
+  mobileInfo = JSON.stringify(mobileFormInfo);
+  localStorage.setItem('mobile_data', mobileInfo);
 });
 
-msg_mobile.addEventListener('input', () => {
-  m_formInfo.msg = msg_mobile.value;
-  mobile_info = JSON.stringify(m_formInfo);
-  localStorage.setItem('mobile_data', mobile_info);
+msgMobile.addEventListener('input', () => {
+  mobileFormInfo.msg = msgMobile.value;
+  mobileInfo = JSON.stringify(mobileFormInfo);
+  localStorage.setItem('mobile_data', mobileInfo);
 });
 
 document.addEventListener('DOMContentLoaded', () => {
   const d_savedData = JSON.parse(localStorage.getItem('desktop_data'));
   if (d_savedData !== null) {
-    name_desktop.value = d_savedData.name;
-    email_desktop.value = d_savedData.email;
-    msg_desktop.value = d_savedData.msg;
+    nameDesktop.value = d_savedData.name;
+    emailDesktop.value = d_savedData.email;
+    msgDesktop.value = d_savedData.msg;
   }
 
   const m_savedData = JSON.parse(localStorage.getItem('mobile_data'));
   if (m_savedData !== null) {
-    name_mobile.value = m_savedData.name;
-    email_mobile.value = m_savedData.email;
-    msg_mobile.value = m_savedData.msg;
+    nameMobile.value = m_savedData.name;
+    emailMobile.value = m_savedData.email;
+    msgMobile.value = m_savedData.msg;
   }
 });
