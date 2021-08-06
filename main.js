@@ -56,16 +56,6 @@ closeBtn2.addEventListener('click', () => {
   desktopmodal.style.display = 'none';
 });
 
-desktopsubmit.addEventListener('click', () => {
-  const str = emailDesktop.value;
-  const myEmail = str.toLowerCase();
-  if (str !== myEmail) {
-    errormsgdesktop.style.display = 'block';
-  } else {
-    errormsgdesktop.style.display = 'none';
-  }
-});
-
 mobileSubmit.addEventListener('click', () => {
   const str = emailMobile.value;
   const myEmail = str.toLowerCase();
